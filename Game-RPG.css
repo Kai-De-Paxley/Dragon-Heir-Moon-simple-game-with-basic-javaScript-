@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
+
+html * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+#early {
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width : 550px;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    color: whitesmoke;
+}
+
+#early h1 {
+    text-align: center;
+    font-size: 45px;
+    font-family: "Rubik Burned",sans-serif;
+}
+
+#early #newGame {
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+#early #newGame:hover {
+    background-color: #222;
+    color: white;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    background-image: url("https://i.ibb.co/2czR6xk/sea-dragon-painting-uasa9u9c2a29bay8.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+header #storeImg,
+header #dungeonImg, 
+header #deadImg {
+    display: none;
+}
+
+
+#container {
+    display: none;
+    border-radius: 15px;
+    padding: 10px;
+    background: white;
+    width: 100%;
+    max-width: 550px;
+}
+
+#container .status {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+#character,
+#storeImg,
+#dungeonImg,
+#deadImg {
+    width: 250px;
+    margin: auto;
+}
+
+#character img, 
+#storeImg img, 
+#dungeonImg img,
+#deadImg img {
+    width: 100%;
+}
+
+.controling {
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+}
+
+.controling button {
+    padding: 5px;
+    width: 100%;
+    background-color: rgb(199, 199, 127);
+    font-weight: 500;
+    transition: 0.2s ease-in-out;
+}
+
+.controling button:hover {
+    background-color: rgb(202, 202, 67);
+}
+
+button:nth-child(2) {
+    margin: 0 10px;
+}
+
+.gambarMonster {
+    margin: 10px;
+}
+
+.gambarMonster #image2,
+.gambarMonster #image,
+.gambarMonster #image3
+{
+    width: 150px;
+    margin: auto;
+}
+
+#image,
+#image2,
+#image3 {
+    display: none;
+}
+
+.gambarMonster img {
+    width: 100%;
+}
+
+#monsterStat {
+    text-align: center;
+    display: none;
+}
+
+#monsterStat .stat {
+    margin: 0 5px;
+}
+
+#monsterName,
+#monsterHealth,
+#monsterLevel {
+    padding: 2px;
+    background-color: rgba(196, 178, 178, 0.651);
+}
+
+#text {
+    margin-top: 5px;
+    background-color: #222;
+    color: white;
+    padding: 5px;
+    text-align: justify;
+}
+
+#text p {
+    font-size: 15px;
+}
+
+
+@media screen and (max-width:600px) {
+
+    #container {
+        width: 100%;
+        max-width: 400px;
+        margin: 10px;
+    }
+
+
+    #character,
+    #storeImg,
+    #dungeonImg,
+    #deadImg {
+        width: 200px;
+        margin: auto;
+    }
+
+    #character img, 
+    #storeImg img, 
+    #dungeonImg img,
+    #deadImg img {
+        width: 100%;
+    }
+
+    #text p{
+        font-size: 15px;
+    }
+  
+  #early {
+    max-width : 450px;
+    margin: 10px;
+  }
+
+}
+
+
+
+

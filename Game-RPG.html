@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Heir Moon</title>
+    <link rel="stylesheet" href="Game-RPG.css">
+</head>
+<body>
+     
+    <div id="early">
+        <h1>Welcome to Dragon Heir Moon</h1>
+        <button id="newGame">Start New Game</button>
+        <p>あなたは世界を支配するモンスターを倒す使命を与えられた騎士です。モンスターを倒し、世界が認めるヒーローになりましょう</p>
+    </div>
+    
+    <div id="container" >
+        <header id="title">
+            <h1 id="name">You as a warriors</h1>   
+            <div id="character">
+                <img  src="https://i.ibb.co/NKmN217/knigth.png">
+            </div>
+            <div id="storeImg">
+                <img src="https://i.ibb.co/y6nxbQv/store.png" alt="">
+            </div>
+            <div id="dungeonImg">
+                <img src="https://i.ibb.co/F8kZTDq/Dungeon.png" alt="Dungeon">
+              
+            </div>
+            <div id="deadImg">
+                <img src="https://i.ibb.co/4Rr0rwk/Dead.png" alt="">
+            </div>
+         </header>
+
+        <div class="status">
+            <div class="stat">EXP: <span id="xpPoint">0</span></div>
+            <div class="stat">Gold: <span id="goldPoint">100</span></div>
+            <div class="stat">Health: <span id="healthPoint">100</span></div>
+        </div>
+
+        <div class="gambarMonster">
+            <div id="image">
+                <img src="https://i.ibb.co/bR9jdNN/warewolf.png" alt="">
+            </div>
+            <div id="image2">
+                <img src="https://i.ibb.co/x1K3FPY/Orc.png" alt="">
+            </div>
+            <div id="image3">
+                <img src="https://i.ibb.co/vhrRTht/fafnir.png" alt="">
+            </div>
+        </div>
+
+        <div id="monsterStat">
+            <span class="stat">Monster name: <span id="monsterName"></span></span>
+            <span class="stat">Healt: <span id="monsterHealth"></span></span>
+            <span class="stat">Level: <span id="monsterLevel"></span></span>
+        </div>
+
+        <div class="controling">
+            <button id="store">Store</button>
+            <button id="dungeon">Dungeon</button>
+            <button id="Boss">Defeat Fafnir</button>
+        </div>
+
+        <div id="text">
+            <p>You are now in the center of the Heinbergt capital of the Reyvornia kingdom, you were given a task by King Eisz BerN Okstania IV to defeat 'FAFNIR' the king of all creatures in the underworld.You were given 100 gold to buy preparations and an arrow before fighting the evil dragon.</p>
+                      
+                      <hr>
+            <p>Tips 1: U need a sword to win this game easily</p>
+            <p>Tips 2: More xp make your damage weapon increased</p>
+            <p>Tips 3: fight monster dungeon is the best way to get Gold and xp</p>
+        </div>
+
+    </div>
+
+    <script src="game-RPG.js"></script>
+</body>
+</html>
